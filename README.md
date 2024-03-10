@@ -1,6 +1,6 @@
-<img align="right" src="https://raw.githubusercontent.com/timothydeletrez/thunder-rpc/main/banner.png">
-
 #### ThunderRPC Reworked
+
+<img align="right" src="https://raw.githubusercontent.com/timothydeletrez/thunder-rpc/main/banner.png">
 
 [![License](https://img.shields.io/badge/LICENSE-MIT-green.svg?style=for-the-badge)](https://opensource.org/license/mit)
 ![DOWNLOAD LATEST VERSION](https://img.shields.io/badge/LATEST_VERSION-v0.1-blue.svg?style=for-the-badge)
