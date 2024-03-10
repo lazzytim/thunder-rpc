@@ -1,4 +1,4 @@
-#### ThunderRPC Reworked
+## ThunderRPC Reworked
 
 <img align="right" src="https://raw.githubusercontent.com/timothydeletrez/thunder-rpc/main/banner.png">
 
