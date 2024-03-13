@@ -1,38 +1,50 @@
-## ThunderRPC Reworked
+# ThunderRPC Reworked
+<img src="https://raw.githubusercontent.com/timothydeletrez/thunder-rpc/main/banner.png" align="right" width="350px">
 
-<img align="right" src="banner.png">
+![GitHub License](https://img.shields.io/github/license/timothydeletrez/thunder-rpc?style=for-the-badge&color=blue)
+![Version](https://img.shields.io/github/v/release/timothydeletrez/thunder-rpc?style=for-the-badge&color=yellow&label=LAST%20VERSION)
+![Python](https://img.shields.io/badge/PYTHON-3.12.1-4584b6.svg?style=for-the-badge)
 
-[![License](https://img.shields.io/badge/LICENSE-MIT-green.svg?style=for-the-badge)](https://opensource.org/license/mit)
-![DOWNLOAD LATEST VERSION](https://img.shields.io/badge/LATEST_VERSION-v0.1-blue.svg?style=for-the-badge)
+ThunderRPC is a portable software made in Python using PyPresence Lib. that allow you to send RichPresence using a `Client ID`.
+To make it work you'll need to fill all the field!, if a field is not filled, it won't work (maybe a error popup for later, I'll see!).
 
-ThunderRPC is a software that allow you to send a custom rich presence to a distance client using PyPresence.
+Have an amasing day, and have fun!
 
-Fill all the field with the correct information, and click on `Send RichPresence`.<br>Your custom RPC is now set.
+---
 
+### 📑 Python Libraries
 
-#### 📙 Used libraries
+ThunderRPC use <a href="https://pypi.org/project/pypresence/">PyPresence</a> to make the RPC work and <a href="https://pypi.org/project/customtkinter/0.3/">CTk</a> to make the app window.
 
- - [PyPresence](https://pypi.org/project/pypresence/)
- - [Threading](https://docs.python.org/3/library/threading.htmls)
- - [Tkinter](https://docs.python.org/3/library/tkinter.html)
- - [Custom Tkinter](https://pypi.org/project/customtkinter/0.3/)
+---
 
-#### 🧭 Guide
+### 🦠 Found a bug ?
 
-I'll explain here, how to set a custom RPC and how to remove it!<br>I suppose that you already downloaded the latest version of ThunderRPC and created a application on the Discord Developer Portal.
+You found a bug or an issues with the code and you want to help ?, go to the issues section and create an new issues!
 
-1. Launch ThunderRPC
-2. Fill the ClientID field with your Discord Application ID. (that can be found on the developer portal)
-3. Fill all the remaining field with your custom RPC.
-4. Click on `Send RPC`
-5. It's done! Your RPC is now set!
+---
 
-#### 🗑️ How do we disable it ?
+### ✏️ Last change log
 
-At the moment, ThunderRPC do not have a stopping system, so to stop it.
+Version: v1.2
 
-1. Close ThunderRPC.
-2. Open your Task Manager.
-3. Find ThunderRPC.exe
-4. Terminate the processus.
-5. And it's done!
+- Added sys._MEIPASS method to import image
+- Fixed the crash problem on close
+- Fixed rich presence not closing when exit the program. (major)
+
+---
+
+### 🔎 Frequantly asked question
+
+- My custom rpc doesn't disappear when I closed the app ?
+
+Sometimes it happen, to repair it, open your task manager (
+CTRL+SHIFT+ESC) and search for `ThunderRPC Reworked vx.x`, right-click on it and choose `End Task`. It should repair your problem.
+
+- The RPC isn't showing on my Discord profile, why ?
+
+It may be multiple reason but here's the 2 most popular:
+
+1. You Client ID isn't correct. To rectify that, go to your discord app on the developer portal and copy the `Application ID`, (NOT THE BOT TOKEN!), then paste it into the `Client ID` field and make sure all the other field are filled!
+
+2. You send too much request to the Discord API, to rectify this, just create a new application and use this one instead!
