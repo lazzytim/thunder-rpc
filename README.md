@@ -48,3 +48,9 @@ It may be multiple reason but here's the 2 most popular:
 1. You Client ID isn't correct. To rectify that, go to your discord app on the developer portal and copy the `Application ID`, (NOT THE BOT TOKEN!), then paste it into the `Client ID` field and make sure all the other field are filled!
 
 2. You send too much request to the Discord API, to rectify this, just create a new application and use this one instead!
+
+---
+
+### ❤️ Contribution
+
+Thanks to @raiyan-alahiani for the little help!
