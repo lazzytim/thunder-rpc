@@ -1,4 +1,4 @@
-# ThunderRPC Reworked
+l# ThunderRPC Reworked
 <img src="https://raw.githubusercontent.com/timothydeletrez/thunder-rpc/main/banner.png" align="right" width="350px">
 
 ![GitHub License](https://img.shields.io/github/license/timothydeletrez/thunder-rpc?style=for-the-badge&color=blue)
@@ -53,4 +53,4 @@ It may be multiple reason but here's the 2 most popular:
 
 ### ❤️ Contribution
 
-Thanks to @raiyan-alahiani for the little help!
+Thanks to [@raiyan-alahiani](https://github.com/raiyan-alahiani) for the little help!
