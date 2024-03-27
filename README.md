@@ -1,4 +1,4 @@
-l# ThunderRPC Reworked
+# ThunderRPC Reworked
 <img src="https://raw.githubusercontent.com/timothydeletrez/thunder-rpc/main/banner.png" align="right" width="350px">
 
 ![GitHub License](https://img.shields.io/github/license/timothydeletrez/thunder-rpc?style=for-the-badge&color=blue)
