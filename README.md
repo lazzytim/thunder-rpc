@@ -26,11 +26,10 @@ You found a bug or an issues with the code and you want to help ?, go to the iss
 
 ### ✏️ Last change log
 
-Version: v1.2
+Version: v1.3
 
-- Added sys._MEIPASS method to import image
-- Fixed the crash problem on close
-- Fixed rich presence not closing when exit the program. (major)
+- Fixed sys._MEIPASS method to work even unpackaged.
+- Added a system tray feature
 
 ---
 
