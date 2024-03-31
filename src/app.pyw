@@ -1,6 +1,8 @@
 import window
 import pypresence
 import tkinter.messagebox as tkm
+import pystray
+from pystray import MenuItem as item
 import time
 import sys
 import threading
@@ -27,8 +29,6 @@ def rpc_Updating():
 def RPC_Threading():
     rpc_thread = threading.Thread(target=rpc_Updating)
     rpc_thread.start()
-
-window.app.protocol("WM_DELETE_WINDOW", on_close)
     
 window.ctk.CTkButton(
     master=window.mainFrame, 
@@ -41,5 +41,25 @@ window.ctk.CTkButton(
     hover_color=window.ButtonColor, 
     command=RPC_Threading
     ).place(relx=.10, rely=.8, anchor=window.ctk.W)
+
+def quit_window(icon, item):
+   icon.stop()
+   window.app.destroy()
+   exit(1)
+
+# Define a function to show the window again
+def show_window(icon, item):
+   icon.stop()
+   window.app.after(0,window.app.deiconify())
+
+# Hide the window and show on the system taskbar
+def hide_window():
+   window.app.withdraw()
+   image=window.Image.open(window.getPath("img\\icon.ico"))
+   menu=(item('Show', show_window), item('Exit ThunderRPC', quit_window))
+   icon=pystray.Icon("name", image, f"ThunderRPC Reworked {window.appVersion}", menu)
+   icon.run()
+
+window.app.protocol('WM_DELETE_WINDOW', hide_window)
 
 window.app.mainloop()

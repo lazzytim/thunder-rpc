@@ -1,12 +1,12 @@
-import ressource_path
 import tkinter as tk
 import customtkinter as ctk
-import PIL
+from PIL import Image, ImageTk
 import os
 import sys
+import pathlib
 
 app = ctk.CTk()
-appVersion = "v1.0"
+appVersion = "v1.3"
 appTitle = "ThunderRPC Reworked" + f" {appVersion}"
 
 MainColor = "#5865F2"
@@ -19,10 +19,17 @@ app.title(appTitle)
 app.geometry("800x600")
 app.resizable(0, 0)
 
-iconRelativePath = ressource_path.resource_path(r"icon.ico")
+def getPath(relative_path):
+    try:
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = pathlib.Path(__file__).parent
+    return os.path.join(base_path, relative_path)
+
+iconRelativePath = getPath("img\\icon.ico")
 app.iconbitmap(iconRelativePath)
  
-imgRelativePath = ressource_path.resource_path(r"left_banner.png")
+imgRelativePath = getPath("img\\left_banner.png")
 img = tk.PhotoImage(file=imgRelativePath)
 ctk.CTkButton(master=app, text="", image=img, border_width=0, fg_color=MainColor, hover_color=MainColor, corner_radius=0).pack(side = ctk.LEFT)
 
