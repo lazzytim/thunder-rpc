@@ -15,6 +15,7 @@ Have an amasing day, and have fun!
 ### 📑 Python Libraries
 
 ThunderRPC use <a href="https://pypi.org/project/pypresence/">PyPresence</a> to make the RPC work and <a href="https://pypi.org/project/customtkinter/0.3/">CTk</a> to make the app window.
+In v1.3, ThunderRPC also use [pystray](https://pypi.org/project/pystray/) to make a system tray icon and minimize window instead of closing it!
 
 ---
 
