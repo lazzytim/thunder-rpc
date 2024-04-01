@@ -27,10 +27,10 @@ You found a bug or an issues with the code and you want to help ?, go to the iss
 
 ### ✏️ Last change log
 
-Version: v1.3
+Version: v1.4
 
-- Fixed sys._MEIPASS method to work even unpackaged.
-- Added a system tray feature
+- Added a check condition if field are blank.
+- Added a '$' condition to timestamp (set the timestamp to "now")
 
 ---
 
