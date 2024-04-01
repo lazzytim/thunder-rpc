@@ -1,5 +1,5 @@
 # ThunderRPC Reworked
-<img src="https://raw.githubusercontent.com/timothydeletrez/thunder-rpc/main/banner.png" align="right" width="350px">
+<img src="https://raw.githubusercontent.com/timothydeletrez/thunder-rpc/main/banner.png" align="right" width="280px">
 
 ![GitHub License](https://img.shields.io/github/license/timothydeletrez/thunder-rpc?style=for-the-badge&color=blue)
 ![Version](https://img.shields.io/github/v/release/timothydeletrez/thunder-rpc?style=for-the-badge&color=yellow&label=LAST%20VERSION)
