@@ -15,6 +15,7 @@ Have an amasing day, and have fun!
 ### 📑 Python Libraries
 
 ThunderRPC use <a href="https://pypi.org/project/pypresence/">PyPresence</a> to make the RPC work and <a href="https://pypi.org/project/customtkinter/0.3/">CTk</a> to make the app window.
+In v1.3, ThunderRPC also use [pystray](https://pypi.org/project/pystray/) to make a system tray icon and minimize window instead of closing it!
 
 ---
 
@@ -26,11 +27,10 @@ You found a bug or an issues with the code and you want to help ?, go to the iss
 
 ### ✏️ Last change log
 
-Version: v1.2
+Version: v1.3
 
-- Added sys._MEIPASS method to import image
-- Fixed the crash problem on close
-- Fixed rich presence not closing when exit the program. (major)
+- Fixed sys._MEIPASS method to work even unpackaged.
+- Added a system tray feature
 
 ---
 
