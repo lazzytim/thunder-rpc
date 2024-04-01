@@ -11,15 +11,42 @@ def on_close():
     sys.exit(1)
 
 def rpc_Updating():  
+    if window.APP_EpochTimestamp.get() == "":
+        epoch = None
+    elif window.APP_EpochTimestamp.get() == "$":
+        epoch = time.time()
+    else:
+        epoch = window.APP_EpochTimestamp.get()
+        
+    if window.APP_State.get() == "":
+        state = None
+    else:
+        state = window.APP_State.get()
+        
+    if window.APP_Details.get() == "":
+        details = None
+    else:
+        details = window.APP_Details.get()
+        
+    if window.APP_LargeImage.get() == "":
+        limage = None
+    else:
+        limage = window.APP_LargeImage.get()
+        
+    if window.APP_SmallImage.get() == "":
+        simage = None
+    else:
+        simage = window.APP_SmallImage.get()
+    
     GotClientID = window.APP_ClientID.get()
     rpc = pypresence.Presence(GotClientID)  
     rpc.connect()
     rpc.update(
-        state=window.APP_State.get(),
-        large_image=window.APP_LargeImage.get(),
-        small_image=window.APP_SmallImage.get(),
-        start=window.APP_EpochTimestamp.get(),
-        details=window.APP_Details.get(),
+        state=state,
+        large_image=limage,
+        small_image=simage,
+        start=epoch,
+        details=details,
     )
 
     tkm.showinfo(title=window.appTitle, message=f"ThunderRPC has sent the rich presence to specified client ID which is [{GotClientID}]")
