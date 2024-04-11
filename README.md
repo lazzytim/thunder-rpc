@@ -8,11 +8,7 @@
 ThunderRPC is a portable software made in Python using PyPresence Lib. that allow you to send RichPresence using a `Client ID`.
 To make it work you'll need to fill all the field!, if a field is not filled, it won't work (maybe a error popup for later, I'll see!).
 
-<<<<<<< Updated upstream
-Have an amazing day, and have fun !
-=======
 Have an amazing day, and have fun!
->>>>>>> Stashed changes
 
 ---
 
@@ -31,18 +27,11 @@ You found a bug or an issues with the code and you want to help ?, go to the iss
 
 ### ✏️ Last change log
 
-<<<<<<< Updated upstream
-Version: v1.4
-
-- Added a check condition if field are blank.
-- Added a '$' condition to timestamp (set the timestamp to "now")
-=======
 Version: v2.0
 
 - Added buttons feature
 - Added tabs to GUI
 - Completly reworked interface
->>>>>>> Stashed changes
 
 ---
 
