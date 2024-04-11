@@ -53,6 +53,12 @@ It may be multiple reason but here's the 2 most popular:
 
 ---
 
+### 🏓 Icons
+
+From the v2.0 update, ThunderRPC started using [Google Fonts' Icons](https://fonts.google.com/icons?icon.set=Material+Icons)!
+
+---
+
 ### ❤️ Contribution
 
 Thanks to [@raiyan-alahiani](https://github.com/raiyan-alahiani) for the little help!
