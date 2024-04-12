@@ -1,5 +1,4 @@
-# ThunderRPC Reworked
-<img src="https://raw.githubusercontent.com/timothydeletrez/thunder-rpc/main/banner.png" align="right" width="280px">
+<img src="https://raw.githubusercontent.com/timothydeletrez/thunder-rpc/main/banner.png" align="right" width="180px">
 
 ![GitHub License](https://img.shields.io/github/license/timothydeletrez/thunder-rpc?style=for-the-badge&color=blue)
 ![Version](https://img.shields.io/github/v/release/timothydeletrez/thunder-rpc?style=for-the-badge&color=yellow&label=LAST%20VERSION)
@@ -37,19 +36,34 @@ Version: v2.0
 
 ### 🔎 Frequantly asked question
 
-- My custom rpc doesn't disappear when I closed the app ?
+#### ⚡ ***ThunderRPC doesn't launch ?***
+
+Sometimes the windows security anti-virus detect ThunderRPC as a `Trojan`.
+No worry, it is a false positive.
+
+To fix it, go into the Windows Security Panel and go into `Protection History`, click on the last one (check if it is ThunderRPC!) and select on `ALLOW`.
+
+#### ⚡ ***My custom rpc doesn't disappear when I closed the app ?***
 
 Sometimes it happen, to repair it, open your task manager (
 CTRL+SHIFT+ESC) and search for `ThunderRPC Reworked vx.x`, right-click on it and choose `End Task`. It should repair your problem.
 If not you may forgot to close it into your system tray icon.
 
-- The RPC isn't showing on my Discord profile, why ?
+#### ⚡ ***The RPC isn't showing on my Discord profile, why ?***
 
 It may be multiple reason but here's the 2 most popular:
 
 1. You Client ID isn't correct. To rectify that, go to your discord app on the developer portal and copy the `Application ID`, (NOT THE BOT TOKEN!), then paste it into the `Client ID` field and make sure all the other field are filled!
 
 2. You send too much request to the Discord API, to rectify this, just create a new application and use this one instead!
+
+---
+
+### ❔ How to use
+
+1. First, you'll need to download the latest version of ThunderRPC. For this, go into the release page.
+2. Launch the executable, windows will maybe detect it as a threat, if so, go into the Windows Security Panel and create an exception for ThunderRPC.
+3. After launch, select the feature that you want and click on `CONNECT`. Your custom rich presence is now available!
 
 ---
 
