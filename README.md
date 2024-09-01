@@ -45,8 +45,7 @@ To fix it, go into the Windows Security Panel and go into `Protection History`, 
 
 #### ⚡ ***My custom rpc doesn't disappear when I closed the app ?***
 
-Sometimes it happen, to repair it, open your task manager (
-CTRL+SHIFT+ESC) and search for `ThunderRPC Reworked vx.x`, right-click on it and choose `End Task`. It should repair your problem.
+Sometimes it happen, to repair it, open your task manager (<kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>Esc</kbd>) and search for `ThunderRPC Reworked vx.x`, right-click on it and choose `End Task`. It should repair your problem.
 If not you may forgot to close it into your system tray icon.
 
 #### ⚡ ***The RPC isn't showing on my Discord profile, why ?***
